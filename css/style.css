@@ -1,9 +1,9 @@
-body {
+body, li {
   margin: 0;
   padding: 0;
 }
 
-body * {
+body *, li * {
   box-sizing: border-box;
 }
 
@@ -11,9 +11,11 @@ body * {
   width: 90%;
   margin: 50px auto;
   display: grid;
+  border: 1px solid goldenrod;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 150px;
   grid-gap: 100px;
+  list-style-type: none;
 }
 
 .container__block {
