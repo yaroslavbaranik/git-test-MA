@@ -22,7 +22,7 @@ body * {
 }
 
 .container__block:nth-child(odd) {
-  background-color: olive;
+  background-color: firebrick;
   color: chartreuse;
 }
 
