@@ -1,9 +1,9 @@
-body, li {
+body, ul {
   margin: 0;
   padding: 0;
 }
 
-body *, li * {
+body *, ul * {
   box-sizing: border-box;
 }
 
